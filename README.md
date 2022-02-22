@@ -33,27 +33,6 @@ Run Project
 ```
 
 Now you can access api's on localhost/postman
-## Folder Structure
-
-|-- E-Commerce API  
-   &nbsp; &nbsp; &nbsp; &nbsp; |-- index.js  
-   &nbsp; &nbsp; &nbsp; &nbsp;  |-- package-lock.json  
-    &nbsp; &nbsp; &nbsp; &nbsp; |-- package.json  
-    &nbsp; &nbsp; &nbsp; &nbsp; |-- config  
-   &nbsp; &nbsp; &nbsp; &nbsp;  |  &nbsp; &nbsp; &nbsp; &nbsp;  |-- mongoose.js  
-    &nbsp; &nbsp; &nbsp; &nbsp; |-- controllers  
-    &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp;  |-- api  
-   &nbsp; &nbsp; &nbsp; &nbsp;  |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      |-- v1  
-   &nbsp; &nbsp; &nbsp; &nbsp;  |      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      |-- products_api.js  
-    &nbsp; &nbsp; &nbsp; &nbsp; |-- models  
-   &nbsp; &nbsp; &nbsp; &nbsp;  |   &nbsp; &nbsp; &nbsp; &nbsp; |-- products.js  
-   &nbsp; &nbsp; &nbsp; &nbsp;  |-- routes  
-     &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp; |-- index.js  
-     &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;  |-- api  
-      &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |-- index.js  
-     &nbsp; &nbsp; &nbsp; &nbsp;      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |-- v1  
-      &nbsp; &nbsp; &nbsp; &nbsp;          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |-- index.js  
-      &nbsp; &nbsp; &nbsp; &nbsp;        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |-- products.js  
 
 ## API Reference
 
@@ -90,3 +69,26 @@ Now you can access api's on localhost/postman
 | :-------- | :------- | :--------------------------------          |
 | `id`      | `Number` | **Required**. Id of product to delete      |
 | `number`  | `Number` | **Required**. increment quantity by number |
+
+## Folder Structure
+
+|-- E-Commerce API  
+   &nbsp; &nbsp; &nbsp; &nbsp; |-- index.js  
+   &nbsp; &nbsp; &nbsp; &nbsp;  |-- package-lock.json  
+    &nbsp; &nbsp; &nbsp; &nbsp; |-- package.json  
+    &nbsp; &nbsp; &nbsp; &nbsp; |-- config  
+   &nbsp; &nbsp; &nbsp; &nbsp;  |  &nbsp; &nbsp; &nbsp; &nbsp;  |-- mongoose.js  
+    &nbsp; &nbsp; &nbsp; &nbsp; |-- controllers  
+    &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp;  |-- api  
+   &nbsp; &nbsp; &nbsp; &nbsp;  |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      |-- v1  
+   &nbsp; &nbsp; &nbsp; &nbsp;  |      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      |-- products_api.js  
+    &nbsp; &nbsp; &nbsp; &nbsp; |-- models  
+   &nbsp; &nbsp; &nbsp; &nbsp;  |   &nbsp; &nbsp; &nbsp; &nbsp; |-- products.js  
+   &nbsp; &nbsp; &nbsp; &nbsp;  |-- routes  
+     &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp; |-- index.js  
+     &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;  |-- api  
+      &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |-- index.js  
+     &nbsp; &nbsp; &nbsp; &nbsp;      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |-- v1  
+      &nbsp; &nbsp; &nbsp; &nbsp;          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |-- index.js  
+      &nbsp; &nbsp; &nbsp; &nbsp;        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |-- products.js  
+
