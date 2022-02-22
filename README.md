@@ -39,19 +39,19 @@ Now you can access api's on localhost/postman
 #### Get all products
 
 ```http
-  GET /api/products
+  GET /api/v1/products
 ```
 
 #### Create Product
 
 ```http
-  POST /api/products/create
+  POST /api/v1/products/create
 ```
 
 #### Delete Product
 
 ```http
-  DELETE /api/products/:id
+  DELETE /api/v1/products/:id
 ```
 
 | Parameter | Type     | Description                           |
